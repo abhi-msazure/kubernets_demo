@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mypythondockerrepo
-        image: kubernetacr.azurecr.io/abhi-msazure/kubernets_demo:#{Build.BuildId}#
+        image: acrreg012.azurecr.io/abhi-msazure/kubernets_demo:#{Build.BuildId}#
         ports:
         - containerPort: 5000
 # service type loadbalancer       
